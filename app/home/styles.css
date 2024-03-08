@@ -178,9 +178,23 @@ button {
     position: absolute;
     background-color: white;
     border-radius: 100%;
-    margin: 50px 0 0 70px;
+    margin: 30px 0 0 85px;
+}
+
+.user-name {
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    margin-top: 80%;
+    letter-spacing: -0.24px;
 }
 
 .img-bottom {
-    margin: 100px 0 0 200px;
+    transform: translateY(-72%);
+    margin: 0 0 0 250px;
 }
