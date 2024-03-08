@@ -12,12 +12,13 @@ html {
 .container {
     width: 418px;
     /* Adjust the width as needed */
-    height: 711px;
+    height: 710px;
     /* Adjust the height as needed */
     background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 0, 0, 1) 0%, rgba(255, 209, 47, 1) 100%);
-    border-radius: 20px;
+    border-radius: 22px;
     /* Control the roundness of the corners */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
     /* Add shadow */
 }
 
@@ -161,9 +162,25 @@ button {
     border-radius: 50px;
     background: #FFE920;
     border: none;
-    width: 116px;
+    width: 125px;
     height: 46px;
     margin-left: 30px;
     transform: translateY(-30%);
     font: bold 15px 'Poppins', sans-serif;
+}
+
+.user-img {
+    width: 241px;
+    height: 236px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    border-radius: 100%;
+    margin: 50px 0 0 70px;
+}
+
+.img-bottom {
+    margin: 100px 0 0 200px;
 }

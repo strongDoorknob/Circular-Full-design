@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page (not log-in)</title>
+    <title>Home page (after log-in)</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
     </style>
@@ -33,29 +33,12 @@
             <main>
                 <h2>Welcome To, <br>
                     THAMMASAT UNIVERSITY</h2>
-                <div class="circle-container">
-                    <div class="small-circle">
-                    </div>
-                    <h4>Log in</h4>
-                </div>
-                <div class="form-container">
-                    <section class="form">
-                        <!-- Use <form> for form elements -->
-                        <form>
-                            <div class="email-input">
-                                <input type="email" id="email" name="email" placeholder="Email or username" required>
-                                <img src="../static/user.png" alt="user-img">
-                            </div>
-                            <div class="password-input">
-                                <input type="password" id="password" name="password" placeholder="Password" required>
-                                <img src="../static/password.png" alt="password-img">
-                            </div>
-                            <!-- Use <a> for links -->
-                            <a href="#">Forgot password?</a><br>
-                            <!-- Use <button> for clickable buttons -->
-                            <button type="submit">Login Now</button>
-                        </form>
-                    </section>
+            
+                <div class="user-img"></div>
+                <div class="user-name">{user_name}<br>{user_surname}</div>
+                
+                <div class="img-bottom">
+                    <img src="../static/dome.png" alt="dome-img">
                 </div>
             </main>
         </div>
