@@ -4,23 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/schedule.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Imprima'>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
     </style>
-    <title>Enroll page</title>
+    <title>Schedule page</title>
 </head>
 
 <body>
     <div class="container">
         <div class="enroll-container">
             <div class="enroll-div">
-                <h1>Enroll</h1>
+                <h1>Schedule</h1>
             </div>
             <div class="detail-div">
-                <h1>ลงทะเบียน / เพิ่ม-ถอน</h1>
+                <h1>ตารางเรียน</h1>
             </div>
             <div class="profile-grid">
                 <img src="#" alt="profile-img">
@@ -43,18 +43,30 @@
                     <button type="button" class="toggle-btn" onclick="rightClick()">Drawn Schedule</button>
                 </div>
             </div>
-            <div class="plan-container">
-                <h3>Plan 1</h3>
-                <br>
-                <div class="detail">
-                    <h5>FR208</h5>
-                    <h7>3 หน่วยกิต (3 หน่วยกิต ลงทะเบียน)</h7><br>
-                    <h7>ภาษาฝรั่งเศสเพื่อการสื่อสาร</h7>
+            <div class="calendar-pic">
+                <img src="./img/calendar.png" alt="calendar (for presentation)">
+            </div>
+            <div class="day-div">
+                <h4>25 Sunday</h4>
+            </div>
+            <div class="class-container">
+                <div class="grid-row">
+                    <div class="time-container">
+                        <h4>12:00</h4>
+                        <h5>14:00</h5>
+                    </div>
+                    <div class="border-line"></div>
+                    <div class="class-detail">
+                        <h4>SF222 (760001)</h4>
+                        <h5>Software Engineering Models and Analysis</h5>
+                        <h6>Room not specified</h6>
+                    </div>
                 </div>
             </div>
-
         </div>
-        <script type="javascript" src="index.js"></script>
+    </div>
+    <script src="index.js"></script>
 </body>
+
 
 </html>
