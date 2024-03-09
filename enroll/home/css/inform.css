@@ -56,7 +56,8 @@ html {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    transform: translateX(-8.3%);
+    transform: translateX(-26.3%);
+    margin-left: 30px;
 }
 
 .enroll-div,
@@ -106,111 +107,39 @@ html {
     margin-left: 20px;
 }
 
-.button-container {
-    align-items: center;
-    justify-content: center;
-    margin: 0 0 0 41px;
-    width: auto;
-    height: 26px;
+.pending-container,
+.submit-container {
+    width: 305px;
+    height: 102px;
+    background-color: #f6f6f6;
     border-radius: 20px;
-    background: #f3f3f3;
-    flex-shrink: 0;
-}
-
-.button-box {
-    width: auto;
-    margin: 10px auto;
-    position: relative;
-    border-radius: 20px;
-    background: #fff;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-}
-
-.toggle-btn {
-    padding: 6px 6.5px;
-    cursor: pointer;
-    background: transparent;
-    border: 0;
-    position: relative;
-    text-align: center;
-    width: auto;
-    display: inline-block;
-}
-
-#btn {
-    top: 3px;
-    position: absolute;
-    width: 127px;
-    height: 26px;
-    background: #ffdfae;
-    border-radius: 20px;
-    transition: .5s;
-    padding: -20px;
-}
-
-button {
-    margin-right: 5px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    font-weight: 400;
-    font: bold 13px 'Poppins', sans-serif;
-}
-
-.calendar-pic img {
-    width: 303px;
-    height: 200px;
-    margin: 10px 0 0 24px;
-    border-radius: 10px;
-}
-
-.day-div h4 {
     margin: 6px 0 0 20px;
-    font-family: 'Poppins';
 }
 
-.class-container {
-    width: 303px;
-    height: 120px;
-    background: rgb(249, 246, 246);
-    margin: 10px 0 0 20px;
-    border-radius: 10px;
+.pending-container h3,
+.submit-container h3 {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0 0 12px;
+    padding-top: 5px;
 }
 
-.grid-row {
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-
-.time-container h4,
-.time-container h5 {
-    margin: 10px 0 0 15px;
-    font-family: 'Poppins';
-}
-
-.border-line {
-    background-color: rgba(255, 209, 47, 1);
-    height: 105px;
-    margin-top: 10px;
-    margin-left: 4px;
-    padding-left: 3px;
-}
-
-.class-detail h4 {
+.pending-container button {
+    width: 129px;
+    height: 32px;
+    border: none;
+    background-color: #fdf1c5;
+    margin: 2px 0 0 10.3rem;
     font: bold 15px 'Poppins', sans-serif;
-    margin: 10px 0 0 7px;
+    border-radius: 20px;
 }
 
-.class-detail h5 {
-    font: normal 12px 'Poppins', sans-serif;
-    margin: 12px 0 0 7px;
+.submit-container button {
+    width: 129px;
+    height: 32px;
+    border: none;
+    background-color: #fdccc5;
+    margin: 2px 0 0 10.3rem;
+    font: bold 15px 'Poppins', sans-serif;
+    border-radius: 20px;
+    border-color: #fda293;
 }
-
-.class-detail h6 {
-    font: normal 10px 'Poppins', sans-serif;
-    margin: 3px 0 0 7px;
-}
-
-
-
